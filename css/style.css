@@ -3028,6 +3028,114 @@ strong.stroke-three.utilities:before {
   text-align: right;
 }
 
+#contact-section {
+  width: 100%;
+  display: block;
+  background: #fefefe;
+}
+#contact-section #contact-banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 400px;
+  background: url("../images/contact-banner-bg.jpg") no-repeat top center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+#contact-section #contact-banner .overlay {
+  height: 400px;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  background: rgba(32, 32, 32, 0.8);
+}
+#contact-section #contact-banner .overlay:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#contact-section #contact-banner .overlay > .container {
+  display: inline-block;
+  vertical-align: middle;
+}
+#contact-section #contact-banner .overlay h1 {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 500;
+  position: relative;
+}
+#contact-section #contact-form {
+  background: url("../images/contact-bg.png") no-repeat top center;
+  background-size: 100%;
+}
+#contact-section #contact-form .overlay {
+  background: url("../images/contact-bg-map.png") no-repeat top center;
+  background-size: 100%;
+  padding: 100px 0 150px 0;
+}
+#contact-section #contact-form h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #202020;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 51px;
+}
+#contact-section #contact-form p {
+  font-size: 16px;
+  color: #404040;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 21px;
+}
+#contact-section #contact-form .contact-details {
+  text-align: center;
+  margin-bottom: 36px;
+}
+#contact-section #contact-form .contact-details span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #404040;
+  line-height: 20px;
+}
+#contact-section #contact-form form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#contact-section #contact-form form .form-group {
+  padding: 0;
+  margin: 0;
+}
+#contact-section #contact-form form .form-group input {
+  height: 50px;
+  border: 1px solid #808080;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+#contact-section #contact-form form .form-group textarea {
+  border: 1px solid #808080;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 300;
+  height: 150px;
+  resize: none;
+}
+#contact-section #contact-form form .btn-awr-submit {
+  margin-top: 25px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 55px;
+  background: #ff5b1a;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 0;
+}
+
 #footer #clients {
   background: #eeeeee;
   max-height: 75px;
