@@ -3037,9 +3037,15 @@ strong.stroke-three.utilities:before {
   position: relative;
   overflow: hidden;
   max-height: 400px;
-  background: url("../images/contact-banner-bg.jpg") no-repeat top center;
+  background: url("../images/contact-banner-bg.jpg");
   background-attachment: scroll;
   background-size: cover;
+}
+#contact-section #contact-banner.paraxify {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #contact-section #contact-banner .overlay {
   height: 400px;
@@ -3240,6 +3246,12 @@ strong.stroke-three.utilities:before {
   }
   #check-out #check-out-info .check-out-details .form-group #cardnumber {
     width: 257px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #contact-section #contact-form .overlay {
+    background: url("../images/contact-bg-map-mid.png") no-repeat top right;
+    background-size: cover;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -4162,6 +4174,13 @@ strong.stroke-three.utilities:before {
   #footer #footerMid #logoWhite {
     max-width: 250px;
   }
+
+  #contact-section #contact-banner {
+    background-attachment: scroll !important;
+  }
+  #contact-section #contact-banner .overlay h1 {
+    font-size: 51px;
+  }
 }
 @media screen and (max-width: 700px) {
   #categorySearch form .col-xs-12 {
@@ -4275,6 +4294,11 @@ strong.stroke-three.utilities:before {
   }
   #check-out #check-out-info .add-cart {
     padding: 0 15px;
+  }
+}
+@media screen and (max-width: 520px) {
+  #contact-section #contact-banner .overlay h1 {
+    font-size: 41px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -4619,6 +4643,20 @@ strong.stroke-three.utilities:before {
   #customerService #cs-head .left {
     min-width: 135px;
   }
+
+  #contact-section #contact-banner .overlay {
+    white-space: normal;
+  }
+  #contact-section #contact-banner .overlay:before {
+    height: auto;
+  }
+  #contact-section #contact-banner .overlay .container {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+  }
 }
 @media screen and (max-width: 450px) {
   #itemGrid .items-add .left {
@@ -4659,6 +4697,11 @@ strong.stroke-three.utilities:before {
   #shopping-cart #shopping-cart-view .item-on-cart .item td .code,
   #shopping-cart #shopping-cart-view .item-on-cart .item td .model {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 420px) {
+  #contact-section #contact-banner .overlay h1 {
+    font-size: 41px;
   }
 }
 @media screen and (max-width: 400px) {

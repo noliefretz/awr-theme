@@ -32,8 +32,6 @@ j(function(){
             j('.nfmPara').css('background-position', 'center '+ scrollVal +'px');
             j('.nfmParaReverse').css('background-position', 'center -'+ reverseScrollVal +'px');
             
-            console.log(bannerHeight);
-            
         });
         
     }    
