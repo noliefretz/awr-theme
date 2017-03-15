@@ -23,12 +23,12 @@
             <div class="container">
 
                 <div class="row about-intro">
-                    <di class="col-sm-2 lead-seal">
+                    <div class="col-sm-2 lead-seal">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/leaf-orange.svg">
-                    </di>          
-                    <di class="col-sm-10 intro-text">
+                    </div>          
+                    <div class="col-sm-10 intro-text">
                         Since 1983 Arctic Wire Rope &amp; Supply has been leading the Pacific Northwest
-                    </di>      
+                    </div>      
                 </div>
 
                 <div class="intro-con-text">
@@ -93,28 +93,28 @@
 
             <div class="row team-members">
 
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Mark Lamoureux</div>
                         <div class="position">General Manager</div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Jill Reeves</div>
                         <div class="position">Sales Manager</div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Scott Jenks</div>
                         <div class="position">Inside Sales</div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Philip West</div>
@@ -126,28 +126,28 @@
 
             <div class="row team-members">
 
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Russell Forbes</div>
                         <div class="position">Plant Superintendent</div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Jeff Harrison</div>
                         <div class="position">Rigging Foreman</div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Jover Estrella</div>
                         <div class="position">Sewing Foreman</div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="item-holder">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/sample-member-img.png">
                         <div class="name">Alvin Mason</div>

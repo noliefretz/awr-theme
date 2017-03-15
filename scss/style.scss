@@ -3291,7 +3291,7 @@ strong{
                     }
                     &:hover{
                         background: $orange;
-                        border-color: $orange; 
+                        border-color: $orange;
                     }
                 }
             }
@@ -3368,7 +3368,8 @@ strong{
         }
         form{
             text-align: center;
-            width: 660px;
+            width: 100%;
+            max-width: 660px;
             margin: 0 auto;
             
             .form-control{
@@ -4090,6 +4091,32 @@ strong{
             }
         }
     }
+    
+    #about-page{
+        #about-history{
+            .about-intro {
+                .intro-text{
+                    
+                    font-size: 33px;
+                    
+                }
+            }
+        }
+        #about-team{
+            .team-members{
+                .position{
+                    font-size: 15px;
+                }
+                .col-sm-12{
+                    .item-holder{
+                        width: 25%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    
 }
 
 @media screen and (max-width: 930px){
@@ -4716,6 +4743,24 @@ strong{
                         
         }
         
+    }
+    
+    #about-page{
+        #about-team{
+            .team-members{
+                .col-sm-12{
+                    .item-holder{
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    
+    .btn-submit{
+        padding-left: 15px !important;
+        margin-top: 15px;
     }
 
 }
