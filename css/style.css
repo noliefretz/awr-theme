@@ -4513,6 +4513,13 @@ strong.stroke-three.utilities:before {
     font-size: 51px;
   }
 
+  #about-page #about-history .lead-seal {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #about-page #about-history .intro-text {
+    text-align: center;
+  }
   #about-page #about-team .team-members .col-sm-12 .item-holder {
     width: 100%;
     margin: 0 auto;
@@ -4997,6 +5004,14 @@ strong.stroke-three.utilities:before {
     transform: translateY(-50%);
     position: relative;
     top: 50%;
+  }
+
+  #about-page #about-team .team-members .col-sm-12 .item-holder {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #about-page #about-team .team-members .position {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 450px) {

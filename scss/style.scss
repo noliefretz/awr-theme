@@ -4746,6 +4746,15 @@ strong{
     }
     
     #about-page{
+        #about-history{
+            .lead-seal{
+                text-align: center;
+                margin-bottom: 25px;
+            }
+            .intro-text{
+                text-align: center;
+            }
+        }
         #about-team{
             .team-members{
                 .col-sm-12{
@@ -5461,6 +5470,22 @@ strong{
                     transform: translateY(-50%);
                     position: relative;
                     top: 50%;                    
+                }
+            }
+        }
+    }
+    
+    #about-page{
+        #about-team{
+            .team-members{
+                .col-sm-12{
+                    .item-holder{
+                        width: 50%;
+                        margin: 0 auto;
+                    }
+                }
+                .position{
+                    font-size: 12px;
                 }
             }
         }
