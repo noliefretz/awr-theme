@@ -3122,7 +3122,7 @@ strong{
         overflow: hidden;
             background: url('../images/about-us-bg.jpg');
             background-repeat: no-repeat;
-            background-position: bottom center;
+            background-position: top center;
             filter: blur(4px);
             height: 250px;
         }
@@ -5796,7 +5796,17 @@ strong{
     
     #customerService #cs-head{
         display: none;
-    } 
+    }
+    
+    #about-page{
+        #about-banner{
+            .overlay{
+                h1{
+                    font-size: 55px !important;
+                }
+            }
+        }
+    }
     
 }
 
@@ -5807,6 +5817,21 @@ strong{
             line-height: 40px;
         }
     }
+}
+
+@media screen and (max-width: 333px){
+    
+    #about-page{
+        .team-members{
+            > div{
+                width: 100%;
+                > div{
+                    width: 100% !important;
+                }
+            }
+        }
+    }    
+    
 }
 
 @media screen and (max-width: 319px){

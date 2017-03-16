@@ -3195,7 +3195,7 @@ strong.stroke-three.utilities:before {
   overflow: hidden;
   background: url("../images/about-us-bg.jpg");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: top center;
   filter: blur(4px);
   height: 250px;
 }
@@ -5194,11 +5194,23 @@ strong.stroke-three.utilities:before {
   #customerService #cs-head {
     display: none;
   }
+
+  #about-page #about-banner .overlay h1 {
+    font-size: 55px !important;
+  }
 }
 @media screen and (max-width: 349px) {
   .banner h2 {
     font-size: 2em;
     line-height: 40px;
+  }
+}
+@media screen and (max-width: 333px) {
+  #about-page .team-members > div {
+    width: 100%;
+  }
+  #about-page .team-members > div > div {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 319px) {
