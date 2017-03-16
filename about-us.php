@@ -5,7 +5,7 @@
 <div id="about-page">
 
     <div id="about-banner">
-        <div class="banner-bg"></div>
+        <div class="banner-bg paraxify"></div>
         <div class="overlay">
 
             <div class="container">
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <div id="about-core">
+    <div id="about-core" class="paraxify">
         <div class="overlay">
 
             <div class="container">

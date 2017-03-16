@@ -3119,12 +3119,18 @@ strong{
         position: relative;
         overflow: hidden;
         .banner-bg{
-        overflow: hidden;
+            overflow: hidden;
             background: url('../images/about-us-bg.jpg');
             background-repeat: no-repeat;
             background-position: top center;
             filter: blur(4px);
             height: 250px;
+            &.paraxify{
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                background-attachment: fixed;       
+            } 
         }
         .overlay{
             background: rgba(32,32,32,0.9);
@@ -3243,6 +3249,12 @@ strong{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
+        &.paraxify{
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;       
+        }
         
         .overlay{
             background: rgba(32,32,32,0.9);
@@ -4746,6 +4758,11 @@ strong{
     }
     
     #about-page{
+        #about-banner{
+            .banner-bg{
+                background-size: cover;
+            } 
+        }
         #about-history{
             .lead-seal{
                 text-align: center;
