@@ -29,7 +29,6 @@ j(function(){
         var nfmPara = j('.nfmPara');
         var nfmParaReverse = j('.nfmParaReverse');
             bannerHeight = bannerHeight - bannerHolderHeight;
-        //var bannerHeight = 400;
         
         if( nfmParaReverse.length > 0 ){
             nfmParaReverse.css('background-position', 'center '+ '-'+bannerHeight +'px');    
@@ -50,8 +49,6 @@ j(function(){
             if( nfmParaReverse.length > 0 ){
                 nfmParaReverse.css('background-position', 'center -'+ reverseScrollVal +'px');
             }
-            
-            
 
         });
         

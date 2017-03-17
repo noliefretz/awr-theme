@@ -10,7 +10,7 @@
 
             <div class="container">
 
-                <h1>about artic</h1>
+                <h1>about arctic</h1>
 
             </div>
 
