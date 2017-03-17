@@ -925,10 +925,10 @@ strong.stroke-three.utilities:before {
 }
 
 #intro {
-  background-image: url(../images/arctic-wire-rope-6317.jpg);
+  background-image: url("../images/about-us-bg.jpg");
   background-repeat: no-repeat;
-  background-position: center 0px;
-  background-size: cover;
+  background-position: center bottom;
+  background-size: 100%;
   text-align: center;
   color: #fff;
 }
@@ -2698,6 +2698,17 @@ strong.stroke-three.utilities:before {
   max-width: 288px;
   height: auto;
 }
+#customerService #cs-con #oil-gas img,
+#customerService #cs-con #consctruction img,
+#customerService #cs-con #transportation img,
+#customerService #cs-con #marine img,
+#customerService #cs-con #mining img,
+#customerService #cs-con #gov-military img,
+#customerService #cs-con #utilities img {
+  width: 100%;
+  max-width: 288px;
+  height: auto;
+}
 #customerService #cs-con #anchor {
   position: relative;
   top: 11px;
@@ -2706,6 +2717,28 @@ strong.stroke-three.utilities:before {
 #customerService #cs-con #anchor img {
   width: 100%;
   max-width: 247px;
+}
+#customerService #cs-con #oil-gas {
+  padding-top: 72px;
+}
+#customerService #cs-con #consctruction {
+  position: relative;
+  top: -10px;
+}
+#customerService #cs-con #transportation {
+  padding-top: 75px;
+}
+#customerService #cs-con #marine {
+  padding-top: 120px;
+}
+#customerService #cs-con #mining {
+  padding-top: 70px;
+}
+#customerService #cs-con #gov-military {
+  padding-top: 110px;
+}
+#customerService #cs-con #utilities {
+  padding-top: 115px;
 }
 
 #offers {
@@ -3787,6 +3820,16 @@ strong.stroke-three.utilities:before {
   #customerService #cs-con #anchor {
     top: 70px;
   }
+  #customerService #cs-con #oil-gas {
+    padding-top: 112px;
+  }
+  #customerService #cs-con #consctruction {
+    top: auto;
+    padding-top: 60px;
+  }
+  #customerService #cs-con #ship {
+    padding-top: 85px;
+  }
   #customerService #cs-contact {
     width: 45%;
   }
@@ -4132,6 +4175,12 @@ strong.stroke-three.utilities:before {
     display: none;
   }
 
+  #intro {
+    background-size: cover !important;
+    background-attachment: scroll !important;
+    background-position: center bottom !important;
+  }
+
   #check-out-header {
     text-align: center;
   }
@@ -4433,7 +4482,15 @@ strong.stroke-three.utilities:before {
     padding: 17px 0 0 10%;
     min-height: 102px;
   }
-  #customerService #ship {
+  #customerService #ship,
+  #customerService #oil-gas,
+  #customerService #consctruction,
+  #customerService #transportation,
+  #customerService #marine,
+  #customerService #mining,
+  #customerService #gov-military,
+  #customerService #utilities {
+    padding-top: 50px !important;
     text-align: center;
   }
   #customerService #anchor img {

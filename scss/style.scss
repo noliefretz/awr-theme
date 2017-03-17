@@ -851,10 +851,11 @@ strong{
 }
 
 #intro{
-    background-image: url(../images/arctic-wire-rope-6317.jpg);
+    //background-image: url(../images/arctic-wire-rope-6317.jpg);
+    background-image: url('../images/about-us-bg.jpg');
     background-repeat: no-repeat;
-    background-position: center 0px;
-    background-size: cover;
+    background-position: center bottom;
+    background-size: 100%;
     text-align: center;
     color: $white;
     
@@ -2615,6 +2616,19 @@ strong{
                 height: auto;
             }
         }
+        #oil-gas,
+        #consctruction,
+        #transportation,
+        #marine,
+        #mining,
+        #gov-military,
+        #utilities{
+            img{
+                width: 100%;
+                max-width: 288px;
+                height: auto;
+            }
+        }
         #anchor{
             position: relative;
             top: 11px;
@@ -2624,6 +2638,30 @@ strong{
                 max-width: 247px;
             }
         }
+        
+        #oil-gas{
+            padding-top: 72px;
+        }
+        #consctruction{
+            position: relative;
+            top: -10px;
+        }
+        #transportation{
+            padding-top: 75px;
+        }
+        #marine{
+            padding-top: 120px;
+        }
+        #mining{
+            padding-top: 70px;
+        }
+        #gov-military{
+            padding-top: 110px;
+        }
+        #utilities{
+            padding-top: 115px;
+        }
+        
     }
 }
 
@@ -3824,6 +3862,23 @@ strong{
             #anchor{
                 top: 70px;
             }
+            #oil-gas{
+                padding-top: 112px;
+            }
+            #consctruction{
+                top: auto;
+                padding-top: 60px;
+            }
+            #ship{
+                padding-top: 85px;
+            }
+            #oil-gas,
+            #consctruction,
+            #transportation,
+            #marine,
+            #mining,
+            #gov-military,
+            #utilities{}
         }        
         #cs-contact{
             width: 45%;
@@ -4261,8 +4316,15 @@ strong{
                 padding: 15px 0;    
                 text-align: center; 
                 display: none;
+                
             }
         }
+    }
+  
+    #intro{
+        background-size: cover !important;
+        background-attachment: scroll !important;
+        background-position: center bottom!important;
     }
     
     #check-out-header{
@@ -4635,7 +4697,15 @@ strong{
                 min-height: 102px;
             }
         }
-        #ship{
+        #ship,
+        #oil-gas,
+        #consctruction,
+        #transportation,
+        #marine,
+        #mining,
+        #gov-military,
+        #utilities{
+            padding-top: 50px !important;
             text-align: center;
         }
         #anchor{
@@ -4644,6 +4714,7 @@ strong{
                 height: auto;
             }
         }
+        
     }
     
     #offers{

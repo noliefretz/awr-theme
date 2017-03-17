@@ -22,7 +22,7 @@ function awr_enqueue_scripts(){
     wp_enqueue_script('paraxify');
     wp_enqueue_script('main_script');
 
-    if( is_tax() ){
+    if( is_tax() || is_home() ){
 
       wp_enqueue_script('customParallax');
 

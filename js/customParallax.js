@@ -17,10 +17,13 @@ j(function(){
     }
     
     function customParallax(){
-        
-        var bannerHeight = bannerImgheight() / 2;
+
+        var bannerHeight = bannerImgheight()
+        var bannerHolderHeight = j('.nfmParaReverse').outerHeight();
+            bannerHeight = bannerHeight - bannerHolderHeight;
         //var bannerHeight = 400;
         j('.nfmParaReverse').css('background-position', 'center '+ '-'+bannerHeight +'px');
+      
         
         j(window).scroll(function(){
     
@@ -33,6 +36,8 @@ j(function(){
             j('.nfmParaReverse').css('background-position', 'center -'+ reverseScrollVal +'px');
             
         });
+      
+        console.log(bannerImgheight());
         
     }    
 

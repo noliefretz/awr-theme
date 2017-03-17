@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-        <div id="intro" class="homepage">
+        <div id="intro" class="homepage nfmParaReverse">
             <div class="overlay">
                 <div class="container">
 
