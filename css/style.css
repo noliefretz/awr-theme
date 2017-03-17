@@ -3101,14 +3101,9 @@ strong.stroke-three.utilities:before {
   overflow: hidden;
   max-height: 400px;
   background: url("../images/contact-banner-bg.jpg");
-  background-attachment: scroll;
-  background-size: cover;
-}
-#contact-section #contact-banner.paraxify {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
 }
 #contact-section #contact-banner .overlay {
   height: 400px;
@@ -3228,13 +3223,9 @@ strong.stroke-three.utilities:before {
   overflow: hidden;
   background: url("../images/about-us-bg.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
   filter: blur(4px);
   height: 250px;
-}
-#about-page #about-banner .banner-bg.paraxify {
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4577,13 +4568,15 @@ strong.stroke-three.utilities:before {
 
   #contact-section #contact-banner {
     background-attachment: scroll !important;
+    background-position: center top !important;
   }
   #contact-section #contact-banner .overlay h1 {
     font-size: 51px;
   }
 
   #about-page #about-banner .banner-bg {
-    background-size: cover;
+    background-size: cover !important;
+    background-position: center bottom !important;
   }
   #about-page #about-history .lead-seal {
     text-align: center;
@@ -4595,6 +4588,9 @@ strong.stroke-three.utilities:before {
   #about-page #about-team .team-members .col-sm-12 .item-holder {
     width: 100%;
     margin: 0 auto;
+  }
+  #about-page #about-core {
+    background-position: center center !important;
   }
 
   .btn-submit {

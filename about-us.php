@@ -5,7 +5,7 @@
 <div id="about-page">
 
     <div id="about-banner">
-        <div class="banner-bg paraxify"></div>
+        <div class="banner-bg nfmParaReverse"></div>
         <div class="overlay">
 
             <div class="container">

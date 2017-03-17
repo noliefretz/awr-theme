@@ -5,12 +5,18 @@ j(function(){
     function bannerImgheight(){
         
         var height = 0;
-        var path = j('.nfmPara, .nfmParaReverse').css('background-image').replace('url', '').replace('(', '').replace(')', '').replace('"', '').replace('"', '');
-        var tempImg = '<img id="tempImg" src="' + path + '" style="width:100%;height:auto;"/>';
-        j('body').append(tempImg); // add to DOM before </body>
-        j('#tempImg').hide(); //hide image
-        height = j('#tempImg').height(); //get height
-        j('#tempImg').remove(); //remove from DOM
+        var elem = j('.nfmPara, .nfmParaReverse');
+        
+        if( elem.length > 0 ){
+           
+            var path = elem.css('background-image').replace('url', '').replace('(', '').replace(')', '').replace('"', '').replace('"', '');
+            var tempImg = '<img id="tempImg" src="' + path + '" style="width:100%;height:auto;"/>';
+            j('body').append(tempImg); // add to DOM before </body>
+            j('#tempImg').hide(); //hide image
+            height = j('#tempImg').height(); //get height
+            j('#tempImg').remove(); //remove from DOM
+            
+        }               
 
         return height;
         
@@ -30,14 +36,21 @@ j(function(){
             var scrolled = j(window).scrollTop();
             var scrollVal = -(scrolled * 0.2);
             var reverseScrollVal = bannerHeight - (scrolled * 0.2) ;
+            var nfmPara = j('.nfmPara');
+            var nfmParaReverse = j('.nfmParaReverse');
                 //scrollVal = scrollVal - 100;
             
-            j('.nfmPara').css('background-position', 'center '+ scrollVal +'px');
-            j('.nfmParaReverse').css('background-position', 'center -'+ reverseScrollVal +'px');
+            if( nfmPara.length > 0 ){
+                j('.nfmPara').css('background-position', 'center '+ scrollVal +'px');
+            }
             
+            if( nfmParaReverse.length > 0 ){
+                j('.nfmParaReverse').css('background-position', 'center -'+ reverseScrollVal +'px');
+            }
+            
+            
+
         });
-      
-        console.log(bannerImgheight());
         
     }    
 

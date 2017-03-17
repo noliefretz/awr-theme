@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 <div id="contact-section">
 
-    <div id="contact-banner" class="paraxify">
+    <div id="contact-banner" class="nfmPara">
         <div class="overlay">
 
             <div class="container">

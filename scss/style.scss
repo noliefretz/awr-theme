@@ -3032,14 +3032,9 @@ strong{
         overflow: hidden;
         max-height: 400px;
         background: url('../images/contact-banner-bg.jpg');
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-size: cover;
-        &.paraxify{
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            background-attachment: fixed;
-        }
+        background-position: center top;
         .overlay{
             height: 400px;
             text-align: center;
@@ -3160,15 +3155,11 @@ strong{
             overflow: hidden;
             background: url('../images/about-us-bg.jpg');
             background-repeat: no-repeat;
-            background-position: top center;
             filter: blur(4px);
             height: 250px;
-            &.paraxify{
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: cover;
-                background-attachment: fixed;       
-            } 
+            background-position: center bottom;
+            background-size: cover;
+            background-attachment: fixed; 
         }
         .overlay{
             background: rgba(32,32,32,0.9);
@@ -4813,6 +4804,7 @@ strong{
         #contact-banner{
         
             background-attachment: scroll !important;
+            background-position: center top !important;
             
             .overlay{
                 
@@ -4831,7 +4823,8 @@ strong{
     #about-page{
         #about-banner{
             .banner-bg{
-                background-size: cover;
+                background-size: cover !important;
+                background-position: center bottom !important;
             } 
         }
         #about-history{
@@ -4852,6 +4845,9 @@ strong{
                     }
                 }
             }
+        }
+        #about-core{
+            background-position: center center!important;
         }
     }
     
