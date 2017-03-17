@@ -26,26 +26,29 @@ j(function(){
 
         var bannerHeight = bannerImgheight()
         var bannerHolderHeight = j('.nfmParaReverse').outerHeight();
+        var nfmPara = j('.nfmPara');
+        var nfmParaReverse = j('.nfmParaReverse');
             bannerHeight = bannerHeight - bannerHolderHeight;
         //var bannerHeight = 400;
-        j('.nfmParaReverse').css('background-position', 'center '+ '-'+bannerHeight +'px');
-      
+        
+        if( nfmParaReverse.length > 0 ){
+            nfmParaReverse.css('background-position', 'center '+ '-'+bannerHeight +'px');    
+        }      
         
         j(window).scroll(function(){
     
             var scrolled = j(window).scrollTop();
             var scrollVal = -(scrolled * 0.2);
             var reverseScrollVal = bannerHeight - (scrolled * 0.2) ;
-            var nfmPara = j('.nfmPara');
-            var nfmParaReverse = j('.nfmParaReverse');
+            
                 //scrollVal = scrollVal - 100;
             
             if( nfmPara.length > 0 ){
-                j('.nfmPara').css('background-position', 'center '+ scrollVal +'px');
+                nfmPara.css('background-position', 'center '+ scrollVal +'px');
             }
             
             if( nfmParaReverse.length > 0 ){
-                j('.nfmParaReverse').css('background-position', 'center -'+ reverseScrollVal +'px');
+                nfmParaReverse.css('background-position', 'center -'+ reverseScrollVal +'px');
             }
             
             
