@@ -2205,7 +2205,7 @@ strong.stroke-three.utilities:before {
 }
 #itemGrid .items .desc .head h3 a {
   font-weight: 700;
-  font-size: 1.125em;
+  font-size: 1.0625em;
   color: #ff5b1a;
   margin-bottom: 6px;
 }
@@ -3106,7 +3106,7 @@ strong.stroke-three.utilities:before {
   background-position: center top;
 }
 #contact-section #contact-banner .overlay {
-  height: 400px;
+  height: 250px;
   text-align: center;
   position: relative;
   white-space: nowrap;
@@ -3230,7 +3230,7 @@ strong.stroke-three.utilities:before {
   background-attachment: scroll;
 }
 #about-page #about-banner .overlay {
-  background: rgba(32, 32, 32, 0.9);
+  background: rgba(32, 32, 32, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -3368,7 +3368,6 @@ strong.stroke-three.utilities:before {
   border-radius: 50%;
   border: 1px solid #fff;
   text-align: center;
-  line-height: 100px;
   white-space: nowrap;
   margin: 0 auto;
   -webkit-transition: all 0.4s ease-in-out;
@@ -3383,13 +3382,29 @@ strong.stroke-three.utilities:before {
   display: inline-block;
   vertical-align: middle;
 }
-#about-page #about-core .core-values .core-values-item > div > i {
+#about-page #about-core .core-values .core-values-item > div > img {
   display: inline-block;
   vertical-align: middle;
 }
 #about-page #about-core .core-values .core-values-item > div:hover {
   background: #ff5b1a;
   border-color: #ff5b1a;
+}
+#about-page #about-core .core-values .core-values-item > div#group-svg img {
+  width: 41.5px;
+  height: 23.5px;
+}
+#about-page #about-core .core-values .core-values-item > div#cloud-svg img {
+  width: 41px;
+  height: 21px;
+}
+#about-page #about-core .core-values .core-values-item > div#gear-svg img {
+  width: 32px;
+  height: 32px;
+}
+#about-page #about-core .core-values .core-values-item > div#graph-svg img {
+  width: 32px;
+  height: 23px;
 }
 #about-page #about-core h3 {
   color: #ff5b1a;

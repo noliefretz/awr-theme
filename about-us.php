@@ -60,20 +60,20 @@
 
             <div class="container">
 
-                <h2>our core values</h2>
+                <h2>Customer Service</h2>
 
                 <ul class="core-values">
                     <li class="core-values-item">
-                        <div><i class="icon-sprite icon-users"></i></div>
+                        <div id="group-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/group.svg"></div>
                     </li>
                     <li class="core-values-item">
-                        <div><i class="icon-sprite icon-cloud"></i></div>
+                        <div id="cloud-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/cloud.svg"></div>
                     </li>
                     <li class="core-values-item">
-                        <div><i class="icon-sprite icon-gear"></i></div>
+                        <div id="gear-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/gear.svg"></div>
                     </li>
                     <li class="core-values-item">
-                        <div><i class="icon-sprite icon-graph-chart"></i></div>
+                        <div id="graph-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/graph.svg"></div>
                     </li>
                 </ul>
 

@@ -8,10 +8,7 @@
 
             <div class="container">
 
-                <h1>
-                    Wire, Rope, Rigging,<br/>
-                    and Marine Products
-                </h1>
+                <h1>Contact Our Team</h1>
 
             </div>
 

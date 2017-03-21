@@ -2118,7 +2118,7 @@ strong{
                 margin-bottom: 10px;
                 h3 a{
                     font-weight: 700;
-                    @include em(18, $default-font-size);
+                    @include em(17, $default-font-size);
                     color: $orange;
                     margin-bottom: 6px;
                 }
@@ -3036,7 +3036,7 @@ strong{
         background-size: cover;
         background-position: center top;
         .overlay{
-            height: 400px;
+            height: 250px;
             text-align: center;
             position: relative;
             white-space: nowrap;
@@ -3162,7 +3162,7 @@ strong{
             background-attachment: scroll; 
         }
         .overlay{
-            background: rgba(32,32,32,0.9);
+            background: rgba(32,32,32,0.7);
             position: absolute;
             top: 0;
             left: 0;
@@ -3316,7 +3316,6 @@ strong{
                     border-radius: 50%;
                     border: 1px solid $white;
                     text-align: center;
-                    line-height: 100px;
                     white-space: nowrap;
                     margin: 0 auto;
                     @include transition(all 0.4s ease-in-out);
@@ -3326,13 +3325,33 @@ strong{
                         display: inline-block;
                         vertical-align: middle;
                     }
-                    > i{
+                    > img{
                         display: inline-block;
                         vertical-align: middle;
                     }
                     &:hover{
                         background: $orange;
                         border-color: $orange;
+                    }
+                    &#group-svg{
+                        img{
+                            @include half-width-height(83,47);
+                        }
+                    }
+                    &#cloud-svg{
+                        img{
+                            @include half-width-height(82,42);
+                        }
+                    }
+                    &#gear-svg{
+                        img{
+                            @include half-width-height(64,64);    
+                        }
+                    }
+                    &#graph-svg{
+                        img{
+                            @include half-width-height(64,46);    
+                        }
                     }
                 }
             }
