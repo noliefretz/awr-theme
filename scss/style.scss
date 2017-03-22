@@ -3290,6 +3290,17 @@ strong{
             padding: 100px 0;
         }
         
+        .giving-hand{
+            width: 100%;
+            display: block;
+            text-align: center;
+            padding-bottom: 40px;
+            img{
+                width: 48px;
+                height: auto
+            }
+        }
+        
         h2{
             color: $white;
             font-size: 36px;
@@ -4868,6 +4879,7 @@ strong{
         #about-core{
             background-position: center center!important;
         }
+        
     }
     
     .btn-submit{

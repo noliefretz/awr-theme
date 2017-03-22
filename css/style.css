@@ -3341,6 +3341,16 @@ strong.stroke-three.utilities:before {
   background: rgba(32, 32, 32, 0.9);
   padding: 100px 0;
 }
+#about-page #about-core .giving-hand {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#about-page #about-core .giving-hand img {
+  width: 48px;
+  height: auto;
+}
 #about-page #about-core h2 {
   color: #fff;
   font-size: 36px;

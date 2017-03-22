@@ -77,7 +77,9 @@
                     </li>
                 </ul>
 
-                <h3>customer services</h3>
+                <div class="giving-hand">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/giving-a-hand.svg">
+                </div>
 
                 <p> We believe if we take care of our customers and I take care of our employees, business will take will take care of itself. </p>
 
