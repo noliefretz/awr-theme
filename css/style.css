@@ -3373,10 +3373,8 @@ strong.stroke-three.utilities:before {
   margin-bottom: 55px;
 }
 #about-page #about-core .core-values .core-values-item > div {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #fff;
+  width: 150px;
+  height: auto;
   text-align: center;
   white-space: nowrap;
   margin: 0 auto;
@@ -3385,6 +3383,25 @@ strong.stroke-three.utilities:before {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  /*&:hover{
+      background: $orange;
+      border-color: $orange;
+  }*/
+  /*&#cloud-svg{
+      img{
+          @include half-width-height(82,42);
+      }
+  }
+  &#gear-svg{
+      img{
+          @include half-width-height(64,64);    
+      }
+  }
+  &#graph-svg{
+      img{
+          @include half-width-height(64,46);    
+      }
+  }*/
 }
 #about-page #about-core .core-values .core-values-item > div:before {
   content: "";
@@ -3396,25 +3413,9 @@ strong.stroke-three.utilities:before {
   display: inline-block;
   vertical-align: middle;
 }
-#about-page #about-core .core-values .core-values-item > div:hover {
-  background: #ff5b1a;
-  border-color: #ff5b1a;
-}
 #about-page #about-core .core-values .core-values-item > div#group-svg img {
-  width: 41.5px;
-  height: 23.5px;
-}
-#about-page #about-core .core-values .core-values-item > div#cloud-svg img {
-  width: 41px;
-  height: 21px;
-}
-#about-page #about-core .core-values .core-values-item > div#gear-svg img {
-  width: 32px;
-  height: 32px;
-}
-#about-page #about-core .core-values .core-values-item > div#graph-svg img {
-  width: 32px;
-  height: 23px;
+  width: 100%;
+  height: auto;
 }
 #about-page #about-core h3 {
   color: #ff5b1a;

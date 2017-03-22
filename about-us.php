@@ -64,22 +64,11 @@
 
                 <ul class="core-values">
                     <li class="core-values-item">
-                        <div id="group-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/group.svg"></div>
-                    </li>
-                    <li class="core-values-item">
-                        <div id="cloud-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/cloud.svg"></div>
-                    </li>
-                    <li class="core-values-item">
-                        <div id="gear-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/gear.svg"></div>
-                    </li>
-                    <li class="core-values-item">
-                        <div id="graph-svg"><img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/graph.svg"></div>
+                        <div id="group-svg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/giving-a-hand.svg">
+                        </div>
                     </li>
                 </ul>
-
-                <div class="giving-hand">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/customer-service/giving-a-hand.svg">
-                </div>
 
                 <p> We believe if we take care of our customers and I take care of our employees, business will take will take care of itself. </p>
 

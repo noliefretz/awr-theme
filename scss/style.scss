@@ -3322,10 +3322,8 @@ strong{
             .core-values-item{
                 margin-bottom: 55px;
                 > div{
-                    width:  100px;
-                    height: 100px;
-                    border-radius: 50%;
-                    border: 1px solid $white;
+                    width:  150px;
+                    height: auto;
                     text-align: center;
                     white-space: nowrap;
                     margin: 0 auto;
@@ -3340,16 +3338,17 @@ strong{
                         display: inline-block;
                         vertical-align: middle;
                     }
-                    &:hover{
+                    /*&:hover{
                         background: $orange;
                         border-color: $orange;
-                    }
+                    }*/
                     &#group-svg{
                         img{
-                            @include half-width-height(83,47);
+                            width: 100%;
+                            height: auto;
                         }
                     }
-                    &#cloud-svg{
+                    /*&#cloud-svg{
                         img{
                             @include half-width-height(82,42);
                         }
@@ -3363,7 +3362,7 @@ strong{
                         img{
                             @include half-width-height(64,46);    
                         }
-                    }
+                    }*/
                 }
             }
         }
