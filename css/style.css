@@ -839,12 +839,12 @@ strong.stroke-three.utilities:before {
 #nav .navbar-nav-custom #more-term {
   position: absolute;
   top: 0;
-  right: 35px;
+  right: 40px;
 }
 #nav .navbar-nav-custom #cart {
   position: absolute;
   top: 0;
-  right: -16px;
+  right: 0;
 }
 #nav input[type="checkbox"] {
   position: absolute;
@@ -3492,6 +3492,7 @@ strong.stroke-three.utilities:before {
   font-weight: 300;
   box-shadow: none !important;
   outline: 0;
+  border: 1px solid #fff;
 }
 #about-page #about-dlcat form .form-control:focus {
   box-shadow: none !important;
@@ -3753,7 +3754,7 @@ strong.stroke-three.utilities:before {
   }
 
   #nav ul {
-    padding-right: 20%;
+    padding-right: 20% !important;
     height: 40px;
     overflow: hidden;
     margin-top: 5px;
@@ -3770,7 +3771,7 @@ strong.stroke-three.utilities:before {
   #nav ul #cart {
     position: absolute;
     top: 0;
-    right: -16px;
+    right: -16px !important;
   }
 
   #nav li {
@@ -4190,6 +4191,13 @@ strong.stroke-three.utilities:before {
     padding: 15px 0;
     text-align: center;
     display: none;
+  }
+
+  #nav .navbar-nav-custom #cart {
+    right: -16px !important;
+  }
+  #nav .navbar-nav-custom #more-term {
+    right: 52px !important;
   }
 
   #intro {
@@ -4938,7 +4946,7 @@ strong.stroke-three.utilities:before {
     display: block;
   }
   #nav .hide-on-desktop #cart {
-    right: 0;
+    right: -5px !important;
   }
   #nav .hamburger {
     display: block !important;

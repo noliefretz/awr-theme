@@ -34,7 +34,7 @@
 
                     <div class="form-group">
                         <label for="contact-name"></label>
-                        <input type="text" name="contact_name" class="form-control" id="contact-name" placeholder="Name">
+                        <input type="text" name="contact_name" class="form-control" id="contact-name" placeholder="Name" autofocus>
                     </div>
 
                     <div class="form-group">

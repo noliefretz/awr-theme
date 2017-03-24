@@ -775,12 +775,12 @@ strong{
         #more-term{
             position: absolute;
             top: 0;
-            right: 35px;            
+            right: 40px;            
         }
         #cart{
             position: absolute;
             top: 0;
-            right: -16px;            
+            right: 0;            
         }
     }
     input[type="checkbox"]{
@@ -3449,6 +3449,7 @@ strong{
                 font-weight: 300;
                 box-shadow: none !important;
                 outline: 0;
+                border: 1px solid $white;
                 &:focus{
                     box-shadow: none !important;
                 }
@@ -3785,7 +3786,7 @@ strong{
         }
     }
     #nav ul{
-        padding-right: 20%;
+        padding-right: 20% !important;
         height: 40px;
         overflow: hidden;
         margin-top: 5px;
@@ -3802,7 +3803,7 @@ strong{
         #cart{
             position: absolute;
             top: 0;
-            right: -16px;
+            right: -16px !important;
         }
     }
     #nav li{
@@ -4337,6 +4338,17 @@ strong{
                 text-align: center; 
                 display: none;
                 
+            }
+        }
+    }
+    
+    #nav{
+        .navbar-nav-custom{
+            #cart{
+                right: -16px !important;
+            }
+            #more-term{
+                right: 52px !important;
             }
         }
     }
@@ -5366,7 +5378,7 @@ strong{
         .hide-on-desktop{
             display: block;
             #cart{
-                right: 0;
+                right: -5px !important;
             }
         }
         .hamburger{
